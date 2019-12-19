@@ -265,13 +265,26 @@ ul{
 
 @media (max-width: 500px){
 
-nav {	
-	flex-direction:column;
+nav{	
+	flex-direction:column-reverse;
+
+	
 	
 }
-nav a {
+
+.links{
+	flex-direction:column;
+	justify-content: center;
+	align-content: center;
+}
+  nav a {
 	border-bottom: 1px solid gray;
-	
+	text-align: center;
+		
+}
+
+.image{
+	text-align: center;
 	
 }
 
@@ -283,17 +296,50 @@ nav a {
 	
 }
 
+.middle-img{
+	width: 50%;
+    padding: 0% 3%;
+}
+
 .top-content{
 	flex-direction:column;
+	flex-wrap:flex;
+}
+.Features{
+	margin: 2% 0%;
 }
 
 .bottom-content{
 	flex-direction:column;
 }
 
+.Product{
+	margin:2% 0%;
+}
+
 .Number{
 	flex-direction:column;
+	
 }
+
+
+
+/* 800px */
+
+@media(max-width: 800px){
+
+
+
+
+
+
+
+
+
+
+
+
+} 
 
 
 
