@@ -267,8 +267,6 @@ ul{
 
 nav{	
 	flex-direction:column-reverse;
-
-	
 	
 }
 
@@ -289,7 +287,6 @@ nav{
 }
 
 .cta-text{
-	display:flex;
 	flex-direction:column;
 	padding:10%;
 	border-bottom:1px solid gray;
@@ -303,10 +300,11 @@ nav{
 
 .top-content{
 	flex-direction:column;
-	flex-wrap:flex;
+	
 }
 .Features{
 	margin: 2% 0%;
+	flex-wrap: wrap;
 }
 
 .bottom-content{
@@ -322,12 +320,27 @@ nav{
 	
 }
 
+}
+
 
 
 /* 800px */
 
 @media(max-width: 800px){
+	nav{	
+		flex-direction:column-reverse;
+	}
 
+.links{
+	justify-content: flex-start;
+	
+}
+
+.cta-text{
+	flex-direction:column;
+	padding:10%;
+	border-bottom:1px solid gray;
+}
 
 
 
@@ -349,7 +362,7 @@ nav{
 
 
 
-}
+
 
 
 
