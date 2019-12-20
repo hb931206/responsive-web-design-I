@@ -130,7 +130,7 @@ margin:3% 0%;
 .Product{
 	display:flex;
 	flex-direction: column;
-	margin-left:2%;
+	
 }
 
 .Vision{
@@ -274,6 +274,7 @@ nav{
 	flex-direction:column;
 	justify-content: center;
 	align-content: center;
+	
 }
   nav a {
 	border-bottom: 1px solid gray;
@@ -283,6 +284,8 @@ nav{
 
 .image{
 	text-align: center;
+	margin-right:40%;
+	border-bottom: 1px solid gray;
 	
 }
 
@@ -308,15 +311,17 @@ nav{
 }
 
 .bottom-content{
-	flex-direction:column;
+	flex-direction: column;
+	justify-content: space-evenly;	
 }
 
-.Product{
-	margin:2% 0%;
-}
+
+
 
 .Number{
 	flex-direction:column;
+	
+
 	
 }
 
