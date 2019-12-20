@@ -95,58 +95,36 @@ header nav a {
 
 
 /* main content */
-#main-content .top-content{
+.top-content{
 	display:flex;
-	margin:3% 4%;
+	margin: 7% 0% 0% 2%;
+	border-top:1px solid grey;
+	padding-top: 3%;
+
 
 }
 
-.Features{
-	display:flex;
-	flex-direction: column;
-	margin-right:10%;
-}
-
-.About{
-	display:flex;
-	flex-direction: column;
-}
 
 .middle-img{
 margin:3% 0%;
 }
 
+.bottom-content{
+display:flex;
+justify-content: space-between;
+border-bottom:1px solid grey;
+padding-bottom: 3%;
 
-#main-content .bottom-content{
-	display:flex;
-	border-bottom:1% black;
-}
-
-.Service{
-	display:flex;
-	flex-direction: column;
-	margin-left:2%;
 }
 .Product{
-	display:flex;
-	flex-direction: column;
-	
+	margin:0% 2%;
 }
-
-.Vision{
-	display:flex;
-	flex-direction: column;
-	margin-left:2%;
-
-}
-
 
 /* contact */
 .Number{
 display:flex;
 flex-direction:column;
-margin-top: 5%;
-margin-left: 17%;
+margin:5% 0% 3% 12%;
 }
 
 
@@ -179,87 +157,6 @@ nav a{
 	
 }
 
-/* Service */
-.services-header{
-	width:100%;
-}
-.serve-text{
-	display:flex;
-
-}
-.serve-text p{
-	width:200px;
-}
-
-/*main-content*/
-#main-content2{
-	display:flex;
-	
-	border-top:2px solid black;
-	border-bottom:2px solid black;
-	padding: 3% 0%;
-	margin: 3% 0%;
-	
-	
-}
-
-/* First Column*/
-.First{
- display:flex;
- flex-direction:column;
- margin-right:5%;
- 		
-}
-
-.First div{
-	border:1px solid black;
-	background:#DCDCDC;
-	padding:5%;
-	margin:5% 0%
-
-}
-.First div button{
-	margin-top:5%
-}
-
-
-}
-
-/*Second Column*/
-.Second{
-	display:flex;
-	flex-direction:column;
-}
-.Second div{
-	border:1px solid black;
-	background:#DCDCDC;
-	padding:5%;
-	margin:5% 0%
-
-}
-.Second div button{
-	margin-top:5%;
-}
-
-
-.Last{
-	display:flex;
-	margin:3% 0%;
-}
-.Fact{
-	display:flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	width:60%;
-	padding:0% 15%;
-}
-
-
-ul{
-	padding:5% 0% 0% 5%;
-	list-style-type: circle;
-}
-
 /*Media Quarry Assignment*/
 
 
@@ -275,6 +172,7 @@ nav{
 	justify-content: center;
 	align-content: center;
 	
+	
 }
   nav a {
 	border-bottom: 1px solid gray;
@@ -285,7 +183,6 @@ nav{
 .image{
 	text-align: center;
 	margin-right:40%;
-	border-bottom: 1px solid gray;
 	
 }
 
@@ -340,7 +237,7 @@ nav{
 	}
 
 	.image{
-		margin-right: 12%;
+		margin-right: 15%;
 	}
 
 .links{
