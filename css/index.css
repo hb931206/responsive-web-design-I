@@ -164,7 +164,7 @@ nav a{
 
 nav{	
 	flex-direction:column-reverse;
-	
+	align-items: center;
 }
 
 .links{
@@ -233,7 +233,7 @@ nav{
 	}
 
 	.image{
-		margin: auto;
+		margin-right: 14%;
 	}
 
 .links{
@@ -253,14 +253,17 @@ nav{
 }
 .top-content{
 	border-top:1px solid gray;
-	padding-top:10%;
+	padding-top:5%;
+	
 }
+
 .middle-img{
 	width: 90%;
     padding: auto;
 }
 
 .Number{
+	margin: 10% 0%;
 
 }
 
