@@ -177,6 +177,7 @@ nav{
   nav a {
 	border-bottom: 1px solid gray;
 	text-align: center;
+	width:50%;
 		
 }
 
@@ -187,19 +188,25 @@ nav{
 }
 
 .cta-text{
-	flex-direction:column;
+/* flex-direction:column;
 	padding:10%;
+	width:50%; */
 	
 }
 
 .middle-img{
-	width: 50%;
-    padding: 0% 3%;
+	width: 95%;
+    
 }
 
 .top-content{
 	flex-direction:column;
+	justify-content: space-between;
+	width:50%;
 	
+}
+.top-content p{
+	margin-bottom:5%;
 }
 
 .bottom-content{
@@ -207,6 +214,10 @@ nav{
 	justify-content: space-evenly;	
 }
 
+.bottom-content p{
+	margin-bottom:5%;
+
+}
 
 
 
