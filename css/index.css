@@ -58,21 +58,27 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* (Desktop Version) Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container{
 	width:1000px;
 	margin:auto;
 	
 }
 /*header*/
-header{
+header nav{
+	width:100%;
 	display:flex;
-	justify-content:space-evenly;
+	justify-content:space-between;
 }
+.links{
+	width:60%;
+	display:flex;
+	justify-content: space-evenly;
 }
-
-header nav a {
-	padding:1%;	
+nav a{
+	text-decoration: none;
+	color:grey;
+	
 }
 
 /* CTA*/
@@ -136,29 +142,7 @@ display:flex;
 justify-content:center;
 }
 
-
-
-/* Responsive Design Assignment */
-
-/* head */
-header nav{
-	width:100%;
-	display:flex;
-	justify-content:space-between;
-}
-.links{
-	width:60%;
-	display:flex;
-	justify-content: space-evenly;
-}
-nav a{
-	text-decoration: none;
-	color:grey;
-	
-}
-
-/* 500px Media Quarry Assignment*/
-
+/* 500 Media Querry Responsive Design Assignment */
 
 @media (max-width: 500px){
 
