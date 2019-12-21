@@ -11,6 +11,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+	max-width: 100%;
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -121,9 +122,14 @@ justify-content: space-between;
 border-bottom:1px solid black;
 padding-bottom: 3%;
 
+
 }
-.Product{
+/* .Product{
 	margin:0% 2%;
+} */
+
+.bottom-content div{
+	width:31%;
 }
 
 /* contact */
@@ -196,6 +202,9 @@ nav{
 .bottom-content{
 	flex-direction: column;
 	justify-content: space-evenly;	
+}
+.bottom-content div{
+	width:100%;
 }
 
 .bottom-content p{
