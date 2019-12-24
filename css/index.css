@@ -153,18 +153,28 @@ justify-content:center;
 nav{	
 	flex-direction:column-reverse;
 	align-items: center;
+	padding-bottom:5%;
+	
+	
+}
+.image{
+	border-bottom: 1px solid gray;
+
 }
 
 .links{
 	flex-direction:column;
 	justify-content: center;
 	align-content: center;
+
 	
 	
 }
   nav a {
 	border-bottom: 1px solid gray;
 	text-align: center;
+	justify-content: space-evenly;
+	height:5vh;
 	width:50%;
 		
 }
@@ -175,22 +185,24 @@ nav{
 	
 }
 
+
 .cta-text{
-/* flex-direction:column;
-	padding:10%;
-	width:50%; */
+	font-size:500%;
+	margin-right:20%;
+	
+
 	
 }
 
 .middle-img{
-	width: 95%;
+	
     
 }
 
 .top-content{
 	flex-direction:column;
 	justify-content: space-between;
-	width:50%;
+	
 	
 }
 .top-content p{
