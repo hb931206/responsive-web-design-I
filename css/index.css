@@ -246,22 +246,26 @@ nav{
 		
 	}
 
-	.image{
-		margin-right: 14%;
+	.cta-pic{
+		display:none;
 	}
+
+	
 
 .links{
 	display:flex;
 	text align:center;
-	padding-top:5%;
-	margin-left:10%
+	padding:5%;
+	margin-left:17%;
+	
+	
 	
 }
 
 .cta-text{
 	flex-direction:column;
 	text-align: center;
-	margin-left: 30%;
+	
 	
 	
 }
