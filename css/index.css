@@ -260,6 +260,7 @@ nav{
 	
 	
 	
+	
 }
 
 .cta-text{
@@ -273,15 +274,20 @@ nav{
 	border-top:1px solid gray;
 	padding-top:5%;
 	
+	
 }
 
+
+
 .middle-img{
-	width: 90%;
-    padding: auto;
+	width: 95%;
+	display:flex;
+	justify-content:center;
+	margin:3% 1%;
 }
 
 .Number{
-	margin: 10% 0%;
+	margin: 2% 0%;
 
 }
 
